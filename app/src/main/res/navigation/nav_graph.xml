@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splash_fragment">
+
+    <fragment
+        android:id="@+id/splash_fragment"
+        android:name="com.epam.awards.ui.SplashFragment">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/login_fragment" />
+        <action
+            android:id="@+id/action_splash_to_awards"
+            app:destination="@id/awards_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login_fragment"
+        android:name="com.epam.awards.ui.LoginFragment">
+        <action
+            android:id="@+id/action_login_to_awards"
+            app:destination="@id/awards_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/awards_fragment"
+        android:name="com.epam.awards.ui.AwardsFragment"/>
+
+</navigation>

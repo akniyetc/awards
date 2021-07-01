@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Awards</string>
+    <string name="user_name_hint">User name</string>
+    <string name="password_hint">Password</string>
+    <string name="submit_button_text">Login</string>
+    <string name="general_error">Something went wrong!</string>
+    <string name="input_user_name_wrong">User name is empty!</string>
+    <string name="input_password_wrong">Password is empty!</string>
+    <string name="nominee_text">Nominee: %s</string>
+    <string name="nominator_text">Nominator: %s</string>
+</resources>
